@@ -1,17 +1,18 @@
 ---
 spring:
   profiles: profile1
-server:
-  port: 8001
+test:
+  message: config-server-1
 
 ---
 spring:
   profiles: profile2
-server:
-  port: 8002
+test:
+  message: config-server-1
+
 
 ---
 spring:
   profiles: profile3
-server:
-  port: 8003
+test:
+  message: config-server-1
