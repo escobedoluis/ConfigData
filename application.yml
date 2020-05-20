@@ -3,7 +3,7 @@
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://mx-it02498.globant.com:4002/eureka/
+      defaultZone: http://mx-it02498.globant.com:4002/eureka/, http://mx-it02498.globant.com:4003/eureka/, http://mx-it02498.globant.com:4004/eureka/
 
 ---
 spring:
