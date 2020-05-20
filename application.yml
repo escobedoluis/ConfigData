@@ -4,7 +4,8 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://mx-it02498.globant.com:4002/eureka/,http://mx-it02498.globant.com:4003/eureka/,http://mx-it02498.globant.com:4004/eureka/
-
+server:
+  port: ${PORT:${SERVER_PORT:0}}   # Select any available port if neither port nor server port are specified. 
 ---
 spring:
   profiles: subject
