@@ -2,17 +2,16 @@
 spring:
   profiles: profile1
 test:
-  message: config-server-1
+  message: config-server_profile-1
 
 ---
 spring:
   profiles: profile2
 test:
-  message: config-server-1
-
+  message: config-server_profile-2
 
 ---
 spring:
   profiles: profile3
 test:
-  message: config-server-1
+  message: config-server_profile-3
