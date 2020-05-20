@@ -1,2 +1,17 @@
 ---
 lucky-word: Irish
+---
+spring:
+  profiles:
+    active: profile1
+lucky-word: Irish1
+---
+spring:
+  profiles:
+    active: profile2
+lucky-word: Irish2
+---
+spring:
+  profiles:
+    active: profile3
+lucky-word: Irish3
