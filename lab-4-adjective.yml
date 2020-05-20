@@ -1,4 +1,6 @@
 ---
+spring:
+  profiles: default
 server:
   port: ${PORT:${SERVER_PORT:0}}   # Select any available port if neither port nor server port are specified. 
 words: NoProfileSelected
