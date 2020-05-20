@@ -1,0 +1,17 @@
+---
+spring:
+  profiles: profile1
+server:
+  port: 8001
+
+---
+spring:
+  profiles: profile2
+server:
+  port: 8002
+
+---
+spring:
+  profiles: profile3
+server:
+  port: 8003
